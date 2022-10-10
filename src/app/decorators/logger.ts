@@ -70,13 +70,13 @@ export function Log(params?: LoggerParams): (target: any, propertyKey: string, d
       }
 
       // Only Inputs
-      if (options.inputs && !options.outputs) {
-        console[options.type]('Logged inputs ' + original.name + ':', nameAndValue);
+      if (params?.inputs && !params?.outputs) {
+        console[options.type](original.name + ' -> IN: ' + original.name + ':', [nameAndValue]);
       }
 
       // Only Outputs
-      else if (!options.inputs && options.outputs) {
-        console[options.type]('Logged outputs ' + original.name + ':', result);
+      else if (!params?.inputs && params?.outputs) {
+        console[options.type](original.name + ' -> OUT: ', result);
       }
 
       // Input and Output
