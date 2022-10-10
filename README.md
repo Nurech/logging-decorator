@@ -6,7 +6,7 @@ Article:
 
 Stackbliz: https://stackblitz.com/edit/angular-ivy-zjuxxb?file=src%2Fapp%2Fapp.component.ts,src%2Fapp%2Fdecorators%2Flogger.ts
 
-Logger decorator: 
+Logger decorator: https://github.com/Nurech/logging-decorator/blob/master/src/app/decorators/logger.ts
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.0.
 
