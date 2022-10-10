@@ -1,4 +1,12 @@
-# LoggingDecorator
+# @Log() decorator
+
+Angular method logger decorator to log inputs, outputs with timestamps.
+
+Article: 
+
+Stackbliz: https://stackblitz.com/edit/angular-ivy-zjuxxb?file=src%2Fapp%2Fapp.component.ts,src%2Fapp%2Fdecorators%2Flogger.ts
+
+Logger decorator: 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.0.
 
