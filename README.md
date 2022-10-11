@@ -2,7 +2,7 @@
 
 Angular method logger decorator to log inputs, outputs with timestamps.
 
-Article: 
+Article: https://medium.com/@joosep.parts/angular-method-logging-with-log-decorator-9fe9243ff859
 
 Stackbliz: https://stackblitz.com/edit/angular-ivy-zjuxxb?file=src%2Fapp%2Fapp.component.ts,src%2Fapp%2Fdecorators%2Flogger.ts
 
